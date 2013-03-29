@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_margin="10dp"
+        android:hint="Number of threads"
+        android:inputType="number" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Disk Cache"
+        android:id="@+id/cbUseDiskCache"
+        android:checked="false"
+        android:layout_margin="10dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Memory Cache"
+        android:id="@+id/cbUserMemoryCache"
+        android:checked="false"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:id="@+id/btnList"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid View"
+        android:id="@+id/btnGrid"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
+
